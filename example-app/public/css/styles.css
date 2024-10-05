@@ -1,0 +1,30 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(27, 196, 78);
+  }
+
+  thead th:nth-child(1) {
+    width: 30%;
+    text-align: center;
+  }
+
+  thead th:nth-child(2) {
+    width: 30%;
+  }
+
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+
+  thead th:nth-child(4) {
+    width: 15%;
+  }
+
+  th,
+  td {
+    text-align: center;
+    padding: 10px;
+    border: 3px ;
+  }
